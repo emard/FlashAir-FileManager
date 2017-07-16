@@ -8,6 +8,7 @@ This FileManager is based on:
   * The FileManger build by https://github.com/luc-github/Flashair-FM
   * And the following libraries are used
     * jQuery JavaScript Library https://jquery.com/ https://github.com/jquery/jquery
+	* Bootstrap HTML/CSS responsive framework http://getbootstrap.com/ https://github.com/twbs/bootstrap
  
 ## User Interface
 
