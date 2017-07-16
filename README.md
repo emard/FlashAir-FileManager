@@ -10,6 +10,7 @@ This FileManager is based on:
     * jQuery JavaScript Library https://jquery.com/ https://github.com/jquery/jquery
 	* Bootstrap HTML/CSS responsive framework http://getbootstrap.com/ https://github.com/twbs/bootstrap
 	* "Growl-like" notifications for Bootstrap http://bootstrap-notify.remabledesigns.com/ https://github.com/mouse0270/bootstrap-notify
+	* A cross-browser library of CSS animations (used for notifications) http://daneden.github.io/animate.css https://github.com/daneden/animate.css
  
 ## User Interface
 
