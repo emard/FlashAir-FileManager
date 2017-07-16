@@ -6,6 +6,8 @@ This FileManager is based on:
   * The used API is described on
     https://flashair-developers.com/en/documents/api/
   * The FileManger build by https://github.com/luc-github/Flashair-FM
+  * And the following libraries are used
+    * jQuery JavaScript Library https://jquery.com/ https://github.com/jquery/jquery
  
 ## User Interface
 
