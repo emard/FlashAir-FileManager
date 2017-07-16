@@ -9,6 +9,7 @@ This FileManager is based on:
   * And the following libraries are used
     * jQuery JavaScript Library https://jquery.com/ https://github.com/jquery/jquery
 	* Bootstrap HTML/CSS responsive framework http://getbootstrap.com/ https://github.com/twbs/bootstrap
+	* "Growl-like" notifications for Bootstrap http://bootstrap-notify.remabledesigns.com/ https://github.com/mouse0270/bootstrap-notify
  
 ## User Interface
 
