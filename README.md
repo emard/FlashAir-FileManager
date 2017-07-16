@@ -8,18 +8,22 @@ This FileManager is based on:
   * The FileManger build by https://github.com/luc-github/Flashair-FM
   * And the following libraries are used
     * jQuery JavaScript Library https://jquery.com/ https://github.com/jquery/jquery
-	* Bootstrap HTML/CSS responsive framework http://getbootstrap.com/ https://github.com/twbs/bootstrap
-	* "Growl-like" notifications for Bootstrap http://bootstrap-notify.remabledesigns.com/ https://github.com/mouse0270/bootstrap-notify
-	* A cross-browser library of CSS animations (used for notifications) http://daneden.github.io/animate.css https://github.com/daneden/animate.css
+    * Bootstrap HTML/CSS responsive framework http://getbootstrap.com/ https://github.com/twbs/bootstrap
+    * "Growl-like" notifications for Bootstrap http://bootstrap-notify.remabledesigns.com/ https://github.com/mouse0270/bootstrap-notify
+    * A cross-browser library of CSS animations (used for notifications) http://daneden.github.io/animate.css https://github.com/daneden/animate.css
     * Dropzone is an easy to use drag'n'drop library http://www.dropzonejs.com/ https://github.com/enyo/dropzone
-	
-## User Interface
-
-![Screenshot fo UI see doc/UI.png](https://raw.githubusercontent.com/stephanr/FlashAir-FileManager/master/doc/UI.png)
 
 ## Features
 
 It allows to browse, upload and delete files on SD Card and to know the current capacity of the Card.
+
+The FileManager was tested with a FlashAir W-03 card and Chrome 59 / Firefox 54 on the other end.
+
+## User Interface
+
+![Screenshot fo UI see doc/UI.png](https://raw.githubusercontent.com/stephanr/FlashAir-FileManager/master/doc/UI.png)
+
+
 
 ## Configuration
 
