@@ -11,7 +11,8 @@ This FileManager is based on:
 	* Bootstrap HTML/CSS responsive framework http://getbootstrap.com/ https://github.com/twbs/bootstrap
 	* "Growl-like" notifications for Bootstrap http://bootstrap-notify.remabledesigns.com/ https://github.com/mouse0270/bootstrap-notify
 	* A cross-browser library of CSS animations (used for notifications) http://daneden.github.io/animate.css https://github.com/daneden/animate.css
- 
+    * Dropzone is an easy to use drag'n'drop library http://www.dropzonejs.com/ https://github.com/enyo/dropzone
+	
 ## User Interface
 
 TODO
