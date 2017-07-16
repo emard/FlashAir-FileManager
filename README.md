@@ -45,7 +45,8 @@ UPLOAD=1
 
  4. you can edit the List.htm to change the header
 ```
-   <h1>Wifi SD Card</h1>
+<title>FlashAir SD Card</title>
+<a class="navbar-brand" href="#">FlashAir SD Card</a>
 ```
  
  5. Unplug and replug card to refresh settings
