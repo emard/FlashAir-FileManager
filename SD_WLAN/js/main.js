@@ -124,11 +124,11 @@ function showFileList(path) {
 		var filedate = '-';
 		if ( file["fdate"] !== 0 ) {
 			var fd = new Date(
-				((file["fdate"] & 0xfe00) >>> 9) + 1980, 
-				(file["fdate"] & 0x1e0) >> 5, 
-				(file["fdate"] & 0x1f), 
-				(file["ftime"] & 0xf800) >>> 11, 
-				(file["ftime"] & 0x7c0) >> 5, 
+				((file["fdate"] & 0xfe00) >>> 9) + 1980,
+				((file["fdate"] & 0x1e0) >> 5) - 1,
+				(file["fdate"] & 0x1f),
+				(file["ftime"] & 0xf800) >>> 11,
+				(file["ftime"] & 0x7c0) >> 5,
 				(file["ftime"] & 0x1f) * 2
 			);
 			filedate = fd.toLocaleString();
