@@ -94,9 +94,10 @@ function showFileList(path) {
 		var item='';
 		if ( file["attr"] & 0x10 ) {
 			filelink.addClass("dir");
-			//fileicon = '<img src=/SD_WLAN/img/dir.png  width=15>';
+			filedel=' &nbsp; <span class=\'glyphicon glyphicon-remove\' style=\'cursor:pointer;\' data-path=\'' + file["r_uri"] + '\' data-name=\'' + file["fname"] + '\' data-toggle="modal" data-target="#modalDelete" />';
+		//fileicon = '<img src=/SD_WLAN/img/dir.png  width=15>';
 			fileicon = '<span class="glyphicon glyphicon-folder-open" />&nbsp;&nbsp;';
-			item = $('<td colspan="4"></td>').append( fileicon, filelink.append( caption  ) );
+			item = $('<td colspan="4"></td>').append( fileicon, filelink.append(caption), filedel );
 		} 
 		// Append a directory to the end of the list.
 		$("#list").append(
