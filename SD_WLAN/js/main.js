@@ -205,7 +205,7 @@ function Capacity() {
 		var bpersec = Tcapacitystring2[1];
 		var totalfree = Number(snotused) * Number(bpersec);
 		var totalcard = Number(nbtotal) * Number(bpersec);
-		var percentused = Number(totalfree/totalfree).toFixed(2);
+		var percentused = Number((totalfree/totalcard) * 100).toFixed(2);
 	
 		var prog = $('<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>');
 		prog.attr('aria-valuenow', percentused ).width( percentused+"%");
